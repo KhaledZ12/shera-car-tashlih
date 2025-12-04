@@ -1,0 +1,55 @@
+# شراء سيارات تشليح - ملف .htaccess مبسط
+# shiracartashlih.com
+
+# Enforce HTTPS, canonical host, and trailing slashes for clean URLs
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # Bypass rewrites if the request is for an existing file or directory
+    RewriteCond %{REQUEST_FILENAME} -f [OR]
+    RewriteCond %{REQUEST_FILENAME} -d
+    RewriteRule ^ - [L]
+
+    # Force HTTPS and canonical host in a single redirect
+    RewriteCond %{HTTPS} !=on [OR]
+    RewriteCond %{HTTP_HOST} !^shiracartashlih\.com$ [NC]
+    RewriteRule ^ https://shiracartashlih.com%{REQUEST_URI} [L,R=301]
+
+    # Add trailing slash for URLs without file extensions and without query strings
+    RewriteCond %{REQUEST_URI} !\.[^./]+$ [NC]
+    RewriteCond %{REQUEST_URI} !/$
+    RewriteCond %{QUERY_STRING} ^$
+    RewriteRule ^ %{REQUEST_URI}/ [L,R=301]
+
+    # SPA fallback: route all non-file requests to index.html
+    RewriteRule ^ index.html [L]
+</IfModule>
+
+# إعدادات MIME الأساسية فقط
+AddType application/javascript .js
+AddType text/css .css
+AddType application/json .json
+AddType application/manifest+json .webmanifest
+AddType image/svg+xml .svg
+
+# منع عرض قائمة الملفات
+Options -Indexes
+
+# حماية الملفات الحساسة
+<Files ".htaccess">
+    Order Allow,Deny
+    Deny from all
+</Files>
+
+<Files "*.env">
+    Order Allow,Deny
+    Deny from all
+</Files>
+
+# منع عرض قائمة الملفات
+Options -Indexes
+
+# تحسين الذاكرة
+php_value memory_limit 256M
+php_value max_execution_time 300
+php_value max_input_vars 3000

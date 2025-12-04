@@ -1,0 +1,46 @@
+1→User-agent: Googlebot
+    2→Allow: /
+    3→Crawl-delay: 1
+    4→
+    5→User-agent: Googlebot-Image
+    6→Allow: /
+    7→
+    8→User-agent: Mediapartners-Google
+    9→Allow: /
+   10→
+   11→User-agent: Bingbot
+   12→Allow: /
+   13→Crawl-delay: 1
+   14→
+   15→User-agent: Twitterbot
+   16→Allow: /
+   17→
+   18→User-agent: facebookexternalhit
+   19→Allow: /
+   20→
+   21→# Google AdsBot
+   22→User-agent: AdsBot-Google
+   23→Allow: /
+   24→
+   25→User-agent: AdsBot-Google-Mobile
+   26→Allow: /
+   27→
+   28→User-agent: *
+   29→Allow: /
+   30→Crawl-delay: 2
+   31→
+   32→# Disallow unnecessary paths
+   33→Disallow: /src/
+   34→Disallow: /node_modules/
+   35→Disallow: /api/
+    36→Disallow: /*.json$
+    37→# NOTE: لا نقوم بحظر الروابط ذات الاستعلامات لضمان عمل Google Ads (gclid) بشكل صحيح
+    38→Disallow: /_gcl_*
+    39→
+    40→# Allow important static files
+    41→Allow: /favicon.svg
+    42→Allow: /og-image.jpg
+    43→Allow: /sitemap.xml
+    44→
+    45→Sitemap: https://shiracartashlih.com/sitemap.xml
+    46→
