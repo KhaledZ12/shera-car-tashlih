@@ -191,8 +191,8 @@ const Terms = () => {
                   </p>
                   <ul className="list-disc list-inside space-y-1 mr-4">
                     <li>البريد الإلكتروني: info@shiracartashlih.com</li>
-                    <li>الهاتف: +966553668948</li>
-                    <li>واتساب: https://wa.me/966553668948</li>
+                    <li>الهاتف: +966534425343</li>
+                    <li>واتساب: https://wa.me/966534425343</li>
                   </ul>
                 </section>
 

@@ -68,11 +68,11 @@ const Footer = () => {
               <h3 className="text-lg font-semibold text-white">تواصل معنا</h3>
               <div className="space-y-3">
                 <a 
-                  href="tel:0553668948" 
+                  href="tel:0534425343" 
                   className="flex items-center space-x-3 space-x-reverse text-white/80 hover:text-white transition-colors"
                 >
                   <Phone className="h-5 w-5" />
-                  <span>0553668948</span>
+                  <span>0534425343</span>
                 </a>
                 <a 
                   href="mailto:info@shiracartashlih.com" 
@@ -86,7 +86,7 @@ const Footer = () => {
                   <span>الرياض - السعودية</span>
                 </div>
                 <a 
-                  href="https://wa.me/966553668948" 
+                  href="https://wa.me/966534425343" 
                   className="inline-flex items-center space-x-3 space-x-reverse bg-[#25D366] text-white px-4 py-2 rounded-full font-semibold hover:opacity-90 transition-opacity"
                 >
                   <span>التواصل عبر واتساب</span>
@@ -135,7 +135,7 @@ const Footer = () => {
           <div className="flex flex-col space-y-3">
             {/* WhatsApp Button */}
             <a
-              href="https://wa.me/966553668948"
+              href="https://wa.me/966534425343"
               className="bg-[#25D366] text-white p-4 rounded-full shadow-lg hover:shadow-xl transition-all hover:scale-110 animate-fade-in group"
               aria-label="تواصل عبر الواتساب"
             >
@@ -146,7 +146,7 @@ const Footer = () => {
             
             {/* Phone Button */}
             <a
-              href="tel:0553668948"
+              href="tel:0534425343"
               className="bg-[#34D399] text-white p-4 rounded-full shadow-lg hover:shadow-xl transition-all hover:scale-110 animate-fade-in group"
               aria-label="اتصل بنا"
             >

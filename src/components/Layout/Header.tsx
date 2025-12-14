@@ -54,13 +54,13 @@ const Header = () => {
           {/* CTA Buttons */}
           <div className="hidden lg:flex items-center space-x-3 space-x-reverse">
             <Button variant="whatsapp" size="sm" className="rounded-full px-4" asChild>
-              <a href="https://wa.me/966553668948" className="flex items-center">
+              <a href="https://wa.me/966534425343" className="flex items-center">
                 <MessageCircle className="h-4 w-4 ml-2" />
                 واتساب
               </a>
             </Button>
             <Button variant="default" size="sm" className="rounded-full px-4" asChild>
-              <a href="tel:0553668948" className="flex items-center">
+              <a href="tel:0534425343" className="flex items-center">
                 <Phone className="h-4 w-4 ml-2" />
                 اتصل
               </a>
@@ -93,13 +93,13 @@ const Header = () => {
               ))}
               <div className="flex flex-col space-y-2 pt-3 border-t border-border/40">
                 <Button variant="whatsapp" size="sm" asChild>
-                  <a href="https://wa.me/966553668948" className="flex items-center justify-center">
+                  <a href="https://wa.me/966534425343" className="flex items-center justify-center">
                     <MessageCircle className="h-4 w-4 ml-2" />
                     واتساب
                   </a>
                 </Button>
                 <Button variant="outline" size="sm" asChild>
-                  <a href="tel:0553668948" className="flex items-center justify-center">
+                  <a href="tel:0534425343" className="flex items-center justify-center">
                     <Phone className="h-4 w-4 ml-2" />
                     اتصل
                   </a>

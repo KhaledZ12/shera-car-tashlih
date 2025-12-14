@@ -17,7 +17,7 @@ const ServiceSteps = () => {
       description: "تواصل معنا عبر الهاتف أو الواتساب وأخبرنا عن سيارتك وحالتها",
       icon: Phone,
       details: [
-        "رقم الهاتف: 0553668948",
+        "رقم الهاتف: 0534425343",
         "متاح 24 ساعة",
         "رد فوري على الاستفسارات",
         "تحديد موعد المعاينة"
@@ -93,10 +93,10 @@ const ServiceSteps = () => {
             <p className="text-lg sm:text-xl md:text-2xl mb-8 text-white/90 leading-relaxed">من الاتصال حتى إسقاط اللوحات — كل شيء واضح وسريع.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               <Button size="lg" variant="whatsapp" asChild className="w-full sm:w-auto">
-                <a href="https://wa.me/966553668948" target="_blank" rel="noopener noreferrer">واتساب الآن</a>
+                <a href="https://wa.me/966534425343" target="_blank" rel="noopener noreferrer">واتساب الآن</a>
               </Button>
               <Button size="lg" variant="secondary" asChild className="w-full sm:w-auto">
-                <a href="tel:0553668948"><Phone className="h-5 w-5 ml-2" />اتصال مباشر</a>
+                <a href="tel:0534425343"><Phone className="h-5 w-5 ml-2" />اتصال مباشر</a>
               </Button>
             </div>
           </div>
@@ -194,10 +194,10 @@ const ServiceSteps = () => {
             <p className="text-lg md:text-xl mb-8 opacity-90 leading-relaxed">ابدأ الآن واحصل على أفضل سعر لسيارتك — الإجراءات علينا بالكامل.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               <Button size="lg" variant="secondary" asChild>
-                <a href="tel:0553668948"><Phone className="h-5 w-5 ml-2" />اتصال فوري</a>
+                <a href="tel:0534425343"><Phone className="h-5 w-5 ml-2" />اتصال فوري</a>
               </Button>
               <Button size="lg" className="bg-[#25D366] hover:bg-[#20BA5A] text-white" asChild>
-                <a href="https://wa.me/966553668948" target="_blank" rel="noopener noreferrer">واتساب الآن</a>
+                <a href="https://wa.me/966534425343" target="_blank" rel="noopener noreferrer">واتساب الآن</a>
               </Button>
             </div>
           </div>

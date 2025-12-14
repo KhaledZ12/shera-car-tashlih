@@ -78,7 +78,7 @@ export function generateStructuredData(path: string, seoData: SEOData) {
     "logo": "https://shiracartashlih.com/logo.png",
     "contactPoint": {
       "@type": "ContactPoint",
-      "telephone": "0553668948",
+      "telephone": "0534425343",
       "contactType": "customer service",
       "availableLanguage": "Arabic"
     },
@@ -88,7 +88,7 @@ export function generateStructuredData(path: string, seoData: SEOData) {
       "addressLocality": "الرياض"
     },
     "sameAs": [
-      "https://wa.me/966553668948"
+      "https://wa.me/966534425343"
     ]
   };
 
@@ -101,7 +101,7 @@ export function generateStructuredData(path: string, seoData: SEOData) {
         "name": "شراء سيارات تشليح",
         "description": seoData.description,
         "url": seoData.canonical,
-        "telephone": "0553668948",
+        "telephone": "0534425343",
         "address": {
           "@type": "PostalAddress",
           "addressCountry": "SA",

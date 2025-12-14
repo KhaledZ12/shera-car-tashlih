@@ -182,8 +182,8 @@ const Privacy = () => {
                   </p>
                   <ul className="list-disc list-inside space-y-1 mr-4">
                     <li>عبر البريد الإلكتروني: info@shiracartashlih.com</li>
-                    <li>عبر الهاتف: 553668948</li>
-                    <li>عبر واتساب: https://wa.me/966553668948</li>
+                    <li>عبر الهاتف: 534425343</li>
+                    <li>عبر واتساب: https://wa.me/966534425343</li>
                   </ul>
                 </section>
 
