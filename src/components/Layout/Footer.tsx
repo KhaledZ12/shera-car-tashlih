@@ -106,7 +106,7 @@ const Footer = () => {
               <p className="text-sm">
                 By{' '}
                 <a 
-                  href="https://pixeleg.com" 
+                  href="https://pixelmarketng.com" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="text-secondary hover:text-secondary-light transition-colors font-medium"
